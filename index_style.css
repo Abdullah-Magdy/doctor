@@ -1,3 +1,5 @@
+
+
 .bg-light
 {
     background-color:transparent !important;
@@ -20,7 +22,76 @@
 .navbar
 {
     padding: 1.5%;
+    z-index: 555555555555555;
 }
+.iconSea
+{
+  font: 800;
+  font-size: 50px;
+  cursor: pointer;
+  
+
+}
+.iconSea:hover
+{
+  font: 800;
+  font-size: 80px;
+  background-color: transparent;
+  z-index: 555;
+}
+
+
+
+
+.form-inline .box-sea
+ {
+  display: none;
+  width: auto;
+  vertical-align: middle;
+}
+
+
+/*.......................................................................*/
+
+.iconSea1
+{
+  font: 800;
+  font-size: 20px;
+  cursor: pointer;
+  background:  rgb(255, 243, 27) ;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: -3px;
+
+}
+.iconSea1:hover
+{
+  font: 800;
+  font-size: 20px;
+  background-color: transparent;
+  color: #fff;
+  background: linear-gradient(to right,rgb(255, 243, 27) 0,rgba(78, 91, 216, 0.741) 100%);
+  
+
+}
+
+
+
+.form-inline .box-sea1
+ {
+  display: none;
+  width: auto;
+ 
+}
+
+
+/*.......................................................................*/
+
+
+
+
 
 
 
@@ -46,7 +117,7 @@ background: none;
     background-image: url(img/black-wood-small.jpg);
     
     width: 100%;
-    height: 600px;
+    height:auto;
     background-attachment: fixed;
 }
 
@@ -55,11 +126,10 @@ background: none;
 
     background: linear-gradient(to right,rgb(255, 243, 27) 0,rgba(78, 91, 216, 0.741) 100%);
     background-size: 100% 100%;
-    height: 300px;
+    height: auto;
     width: 80%;
     margin: auto;
 }
-
 
 
 
@@ -69,15 +139,17 @@ background: none;
     font-weight: 100;
     font-size: 40px;
     margin: 40px 0px 20px;
+    
   }
   
   .imglogo  #clockdiv{
       font-family: sans-serif;
       color: #fff;
       display: inline-block;
-      font-weight: 100;
+      font-weight: 900;
+
       text-align: center;
-      font-size: 30px;
+      font-size: 80px;
   }
   
   .imglogo  #clockdiv > div{
@@ -433,6 +505,12 @@ background: none;
 
 
 
+.team img
+{
+    border-radius: 0%;
+    width: 96%;
+    height: 40%;
+}
 
 
 
@@ -1128,6 +1206,192 @@ footer{
 
 
 
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&Video&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+
+
+
+
+.skitter .focus_button
+ {
+  background-position: -42px -0px;
+  width: 42px;
+  height: 42px;
+  top: 35px;
+  left: 35px;
+  background-color: #0099ff;
+  padding:  20px ;
+  border-radius: 50%;
+  opacity: 0.3;
+  color: transparent;
+}
+
+
+
+
+
+.skitter .info_slide_dots .image_number {
+  background-color: rgb(216, 236, 30);
+  color: transparent;
+  float: left;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 20;
+  height: 20;
+  text-indent: -9999em;
+  overflow: hidden;
+  transition: all 0.2s;
+  padding: 0 7 0 7;
+}
+
+
+
+.image_main 
+{
+  height: 400px !important;
+  
+}
+
+
+
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&Video&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+
+.w-100 {
+  height: 800px !important ;
+  width: 100%!important;
+}
+
+
+.carousel-control-prev-icon
+{
+  background-color: #dae358 !important;
+  padding: 30px 10px;
+}
+
+
+
+
+.carousel-control-next-icon
+{
+  background-color: #dae358 !important;
+  padding: 30px 10px;
+}
+
+
+.carousel-caption
+{
+  background-color:  rgb(255, 243, 27, 0.5);
+  height: auto;
+  width: 70%;
+  margin-bottom:100px !important ;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.enjoy
+{
+  background-color:  rgb(255, 243, 27, 0.8);
+padding-bottom: 40px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius:20px; 
+
+}
+
+.enjoy a
+{
+  font-weight: 800;
+  font-size:30px;
+}
+#enjoy
+{
+  overflow: hidden;
+}
+#enjoy img
+{
+  border-top-right-radius: 20px;
+border-top-left-radius:20px; 
+height: 400px;
+width: 100%;
+}
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&our see&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+.ourSee p
+{
+  color : #757575;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&callUs&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+.call-us i
+{
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 50%;
+  border: solid 2px rgba(240, 240, 13, 0.63);
+  color: 45d4ff;
+  margin-bottom: 35px;
+  box-shadow: 10px 10px 10px;
+}
+.call-us i:hover
+{
+  border: solid 2px blue;
+  background-color: yellow;
+  color: #45d4ff;
+  transition: 1s;
+  box-shadow: 10px 10px 10px  black;
+
+
+}
+
+
+.call-us .mm{
+  border-left: rgba(240, 240, 13, 0.63) solid 2px;
+  border-right: rgba(240, 240, 13, 0.63) solid 2px;
+
+
+}
+
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&our ser1&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+.our-ser
+{
+  overflow: hidden;
+}
+
+.our-ser1 img
+{
+  height: 400px;
+}
+
+.our-ser1  .btnHome3
+{
+  color: yellow;
+  border: 2px solid #00aeff; 
+}
+.our-ser1 .card
+{
+  margin-bottom:30px ;
+}
+
+
+
+.our-ser1 .card:hover
+{
+  box-shadow: 5px 5px 2.5px  rgb(255, 243, 27, 0.4);
+  transition: 1s;
+  transform: scale(1.05)
+}
 
 
 
@@ -1140,21 +1404,269 @@ footer{
 
 
 
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&ser pro&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+
+.pro .ani
+{
+  border-radius:0px 50px ;
+  border: 2px solid blue;
+  height: 25%;
+}
+
+
+.pro .anii
+{
+  border-radius:50px 0px ;
+  border: 2px solid blue;
+  height: 25%;
+}
+.imgsHover img
+{
+  height: 100%;
+}
+
+
+
+
+
+.pro .img-cover img
+{
+width: 99%;
+  margin-left: 90px;
+}
+.pro .caption 
+{
+  width: 90%;
+  padding-right: 5%
+}
+.pro .imgsHover
+{
+  padding-left: -30px
+}
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&ser fix&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+
+.fix .ani
+{
+  border-radius:0px 50px ;
+  border: 2px solid blue;
+  height: 25%;
+}
+
+
+.fix .anii
+{
+  border-radius:50px 0px ;
+  border: 2px solid blue;
+  height: 25%;
+}
+.imgsHover img
+{
+  height: 100%;
+}
+
+
+.fix .img-cover img
+{
+width: 99%;
+  margin-left: 90px;
+
+}
+.fix .caption 
+{
+  width: 90%;
+  padding-right: 5%
+}
+.fix .imgsHover
+{
+  padding-left: -30px
+}
+
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&ser edu&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+
+
+
+.edu .ani
+{
+  border-radius:0px 50px ;
+  border: 2px solid blue;
+  height: 25%;
+}
+
+
+.edu .anii
+{
+  border-radius:50px 0px ;
+  border: 2px solid blue;
+  height: 25%;
+}
+.imgsHover img
+{
+  height: 100%;
+}
+
+
+
+.edu .img-cover img
+{
+width: 99%;
+  margin-left: 90px;
+}
+.edu .caption 
+{
+  width: 90%;
+  padding-right: 5%
+}
+.edu .imgsHover
+{
+  padding-left: -30px
+}
 
 
 
 
 
 
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&news&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+
+
+.pagination
+{
+  margin-right: 32%;
+}
+
+.pagination a 
+{
+  color: black;
+  background-color: #0099ff;
+  padding: 8px 16px;
+  float: right;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+
+.pagination a.active 
+{
+  background: linear-gradient(to right, #397dca, #f2ff3a) !important;
+  color: white;
+  border: 1px solid rgb(11, 54, 71);
+}
+
+.pagin
+{
+  background-color: #000 !important ;
+  color: floralwhite !important ;
+}
 
 
 
 
 
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&we&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
 
+.howe p
+{
+  color : #757575;
+}
+
+.team2
+{
+  background-color: #b3b3b3;
+
+}
+.team2 p{
+  color:#fff;
+}
+
+.teamWe .imgWe
+{
+  width: 100%;
+  overflow: hidden;
+
+}
+.teamWe img
+{
+  width: 100%;
+}
+ .teamWe img:hover
+
+{
+  transform: scale(1.1);
+  
+  overflow: hidden;
+  transition: 1s
+}
+.teamWe .teamone
+{
+  border: rgba(160, 165, 187, 0.5) 1px solid;
+  overflow: hidden;
+  width: auto;
+text-align: center;
+}
 
 
+.team2 a
+{
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  margin-top: 30px
+}
 
+.weWht
+{
+  overflow: hidden;
+}
+.weWht1
+{
+  overflow: hidden;
+  background: linear-gradient(to right,rgb(240, 255, 27) 0,rgba(78, 91, 216, 0.741) 100%);
+
+}
+
+.weWhat
+{
+  background-image: url(img/pexels-photo-1170979.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+}
+.weWhat1
+{
+background-color: rgba(10, 49, 100, 0.7) ;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+
+.weWhat1 p{
+  color: darkgray !important ;
+}
+
+.wim img
+{
+  height:79.5%;
+
+}
 
 
