@@ -1,27 +1,3 @@
-  
-$(".navbar .form-inline h3 ").click(function(){
-    
-  $(".box-sea1").toggle(2000);
-  
-})
- 
-$('.skitter-large').skitter({
-  navigation: false,
-  numbers: true,
-  focus: true,
-  dots: true,
-});
-
-
-
-
-
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});
-
-
-
 $(window).scroll(function(){
   var wScroll = $(window).scrollTop();
   if (wScroll > 200)
@@ -57,7 +33,7 @@ $(window).scroll(function(){
   }
   else
   {
-    $(".messi").css("backgroundColor","rgba(92, 203, 203, 0.741)")    
+      $(".messi").css("backgroundColor","transparent")  
   }
 });
 
@@ -70,7 +46,7 @@ $(window).scroll(function(){
     }
     else
     {
-        $(".messsi").css("backgroundColor","rgba(92, 203, 203, 0.741)")  
+        $(".messsi").css("backgroundColor","transparent")  
     }
   });
   
@@ -78,10 +54,6 @@ $(window).scroll(function(){
  
 
 
-
-
-
- 
 
 jQuery(document).ready(function($) {
     $('.counter').counterUp({
@@ -93,11 +65,7 @@ jQuery(document).ready(function($) {
 
 
 
-
-
-
-
-new WOW().init();
+        $(".messsi").css("backgroundColor","red")  
 
 
 
@@ -118,7 +86,6 @@ function getTimeRemaining(endtime) {
     };
   }
   
-
   function initializeClock(id, endtime) {
     var clock = document.getElementById(id);
     var daysSpan = clock.querySelector('.days');
@@ -156,3 +123,5 @@ function getTimeRemaining(endtime) {
 
 
 
+
+ 
